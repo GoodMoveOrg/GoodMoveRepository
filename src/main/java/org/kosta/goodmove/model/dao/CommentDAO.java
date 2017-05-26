@@ -13,5 +13,8 @@ public interface CommentDAO {
 	void updateCount(int clno);
 	void commentUpdate(CommentVO cvo);
 	void commentRegister(CommentVO cvo);
+	void deleteComment(int cno);
+	List<CommentVO> findCommentByName(String keyword);
+	int getTotalContentCountByName(String keyword);
 
 }

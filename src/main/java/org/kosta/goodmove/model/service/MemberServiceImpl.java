@@ -31,4 +31,9 @@ public class MemberServiceImpl implements MemberService{
 		return memberDAO.findMemberById(id);
 	}
 	
+	@Override
+	public int getMemberCount(){
+		return memberDAO.getMemberCount();
+	}
+	
 }

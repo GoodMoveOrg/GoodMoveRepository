@@ -69,4 +69,18 @@ public class CommentDAOImpl implements CommentDAO{
 	public void commentRegister(CommentVO cvo) {
 		template.insert("comment.commentRegister", cvo);
 	}
+	
+	@Override
+	public void deleteComment(int cno){
+		template.delete("comment.deleteComment", cno);
+	}
+	
+	@Override
+	public List<CommentVO> findCommentByName(String keyword){
+		return template.selectList("comment.findCommentByName",keyword);
+	}
+	@Override
+	public int getTotalContentCountByName(String keyword) {
+		return template.selectOne("comment.getTotalContentCountByName");
+	}
 }

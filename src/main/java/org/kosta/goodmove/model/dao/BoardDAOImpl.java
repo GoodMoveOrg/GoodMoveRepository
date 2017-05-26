@@ -14,4 +14,8 @@ public class BoardDAOImpl implements BoardDAO{
  @Resource
  private SqlSessionTemplate template;
  
+ 	@Override
+ 	public int getCountBoard(){
+ 		return template.selectOne("board.getCountBoard");
+ 	}
 }

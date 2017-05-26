@@ -1,5 +1,7 @@
 package org.kosta.goodmove.model.service;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.kosta.goodmove.model.dao.CommentDAO;
@@ -89,4 +91,24 @@ public class CommentServiceImpl implements CommentService{
 	public void commentRegister(CommentVO cvo) {
 		commentDAO.commentRegister(cvo);
 	}
+	
+	@Override
+	public void deleteComment(int cno){
+		commentDAO.deleteComment(cno);
+	}
+	
+	@Override
+	public List<CommentVO> findCommentByName(String keyword){
+		return commentDAO.findCommentByName(keyword);
+	}
+	@Override
+	public int getSearchTotalContentCount() {
+		return commentDAO.getTotalContentCount();
+	}
+	
+	@Override
+	public int getTotalContentCount() {
+		return commentDAO.getTotalContentCount();
+	}
+	
 }

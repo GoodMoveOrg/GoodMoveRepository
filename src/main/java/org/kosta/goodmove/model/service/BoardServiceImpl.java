@@ -9,4 +9,9 @@ import org.springframework.stereotype.Service;
 public class BoardServiceImpl implements BoardService{
 	@Resource
 	private BoardDAO boardDAO;
+	
+	@Override
+ 	public int getCountBoard(){
+ 		return boardDAO.getCountBoard();
+ 	}
 }
