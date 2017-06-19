@@ -4,8 +4,8 @@
   <interface id="1" language="java" name="org.kosta.goodmove.model.dao.SearchDAO" project="goodMoveProject-origin" 
     file="/goodMoveProject-origin/src/main/java/org/kosta/goodmove/model/dao/SearchDAO.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="182" y="266"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="53" width="315" x="25" y="96"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -14,8 +14,8 @@
   <class id="2" language="java" name="org.kosta.goodmove.model.dao.SearchDAOImpl" project="goodMoveProject-origin" 
     file="/goodMoveProject-origin/src/main/java/org/kosta/goodmove/model/dao/SearchDAOImpl.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="182" y="91"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="53" width="315" x="25" y="15"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -25,8 +25,8 @@
     project="goodMoveProject-origin" 
     file="/goodMoveProject-origin/src/main/java/org/kosta/goodmove/model/service/SearchService.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="535" y="312"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="53" width="274" x="356" y="95"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -36,8 +36,8 @@
     project="goodMoveProject-origin" 
     file="/goodMoveProject-origin/src/main/java/org/kosta/goodmove/model/service/SearchServiceImpl.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="535" y="110"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="53" width="274" x="356" y="16"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -46,8 +46,8 @@
   <class id="5" language="java" name="org.kosta.goodmove.model.vo.SearchVO" project="goodMoveProject-origin" 
     file="/goodMoveProject-origin/src/main/java/org/kosta/goodmove/model/vo/SearchVO.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="116" y="538"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="53" width="175" x="29" y="191"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -56,8 +56,8 @@
   <class id="6" language="java" name="org.kosta.goodmove.controller.SearchController" project="goodMoveProject-origin" 
     file="/goodMoveProject-origin/src/main/java/org/kosta/goodmove/controller/SearchController.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="535" y="556"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="53" width="212" x="387" y="197"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
